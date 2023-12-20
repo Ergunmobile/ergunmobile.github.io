@@ -34,33 +34,9 @@ a:hover {
 }
 
 nav {
-    background-color: darkred;
-    position: sticky;
-    top: 0;
-    padding: 0 85px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
     font-size: 20;
 }
 
-nav .Logo,
-footer .Logo{
-    display: flex;
-    align-items: center;
-}
-
-nav .Logo a,
-footer .Logo a {
-    margin-left: 8;
-}
-
-nav ul,
-footer .top ul{
-    display: flex;
-}
 
 .welcome {
     font-family: 'Fira Code', monospace;

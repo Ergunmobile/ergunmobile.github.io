@@ -17,6 +17,7 @@ body {
 
 .Logo {
     width: 80;
+    float: left;
 }
 
 li {
@@ -31,10 +32,6 @@ a {
 
 a:hover {
     color: black;
-}
-
-nav {
-    font-size: 20;
 }
 
 
@@ -83,4 +80,11 @@ nav {
 
 .About button:hover {
     color: black;
+}
+
+.link {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
 }

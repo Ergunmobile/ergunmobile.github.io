@@ -24,7 +24,7 @@ li {
 a {
     text-decoration: none;
     color: white;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 .infos a {
@@ -33,6 +33,7 @@ a {
 
 a:hover {
     color: black;
+    text-decoration: underline;
 }
 
 
@@ -125,13 +126,9 @@ a:hover {
 
 .flex {
     display: flex;
-    background-color: darkred;
     justify-content: center;
 }
 
 .flex > div {
-    background-color: darkred;
     margin: 20;
-    margin-top: 9;
-    padding: 0px;
 }
